@@ -1,7 +1,6 @@
-from repositories.EuCalculo import EuCalculo
 
 
-class Mercadoria(EuCalculo):
+class Mercadoria:
     def __init__(self, nome, codigo, quantidade, preco):
         self._nome = nome
         self._codigo = codigo
@@ -39,8 +38,7 @@ class Mercadoria(EuCalculo):
         def preco(self, preco):
             self._preco = preco
 
-        def EuCalculo(self):
-            return self._preco*self._quantidade
+
 
 
 

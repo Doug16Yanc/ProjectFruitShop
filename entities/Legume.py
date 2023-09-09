@@ -7,3 +7,8 @@ class Legume(Mercadoria):
 
         def EuCalculo(self):
             return self._preco * self._quantidade
+
+        def somaLegume(EuCalculo):
+            EuCalculo += 1
+
+
